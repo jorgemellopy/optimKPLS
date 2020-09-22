@@ -1,0 +1,15 @@
+Package: optimKPLS
+Type: Package
+Title: Optimizacion de KPLS mediante un algoritmmo memetico
+Version: 0.0.1.0
+Authors@R: c(person("Jorge Daniel Mello Roman", "Developer", role = c("aut", "cre"),
+                          email = "jmello@ucm.es"))
+Maintainer: Jorge Daniel Mello Roman <jmello@ucm.es>
+Description: Ajuste metaheurístico de parámetros de la regresión KPLS.
+Depends: R (>= 3.5.0)
+Imports: kernlab,plsdepot,Rmalschains,readxl
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
